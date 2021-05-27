@@ -51,4 +51,4 @@ Pyrogram
 youtube_search
 apscheduler
 shazamio
-TgCrypto
+
