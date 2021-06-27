@@ -27,26 +27,21 @@ from cinderella.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-_Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+_ʜᴇʟʟᴏ_ *{}*
+_ₘy ₙₐₘₑ ᵢₛ _ *{}*\n_ᴀ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ,ꜰᴇᴇʟ ꜰʀᴇᴇ & ᴀᴅᴅ ᴍᴇ ɪɴᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ɪᴛ ᴇᴀꜱɪʟʏ !!_
+_ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ_ [{}](tg://user?id={})
 """
 
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-*Main* commands available:
- 💠 - /start: start the bot
- 💠 - /help: PM's you this message.
- 💠 - /help <module name>: PM's you info about that module.
- 💠 - /source: Information about my source.
- 💠 - /settings:
-   🔹 - in PM: will send you your settings for all supported modules.
-   🔹 - in a group: will redirect you to pm, with all that chat's settings.
+ʜᴇʏ ᴛʜᴇʀᴇ ᴍʏ ɴᴀᴍᴇ ɪꜱ  *{}*.
+ɪ ᴀᴍ ᴀ ᴍᴏᴅᴜʟᴀʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ  ʜᴀᴠᴇ ᴀ ʟᴏᴏᴄᴋ ᴀᴛ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀ ᴀɴ ɪᴅᴇᴀ ᴏꜰꜰ ꜱᴏᴍᴇ ᴏꜰ ᴛʜᴇ ᴛʜɪɴɢ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴡɪᴛʜ 
+
+ 📣 - /settings:
+   📣 - ɪɴ ᴘᴍ: ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ .
+   📣 - ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ'ꜱ ꜱᴇᴛᴛɪɴɢꜱ .
 {}
-And the following:
+ᴬⁿᵈ ᵗʰᵉ ᶠᵒˡˡᵒʷⁱⁿᵍ :
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
