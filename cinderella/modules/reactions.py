@@ -231,7 +231,7 @@ REACT_HANDLER = DisableAbleCommandHandler("react", react)
 
 dispatcher.add_handler(REACT_HANDLER)
 
-__mod_name__ = "ʀᴇᴀᴄᴛ"
+__mod_name__ = "Rᴇᴀᴄᴛ"
 __command_list__ = ["react"]
 __handlers__ = [REACT_HANDLER]
 
