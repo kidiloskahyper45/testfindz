@@ -1678,7 +1678,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "ꜰᴇᴅᴇʀᴀᴛɪᴏɴꜱ"
+__mod_name__ = "Fᴇᴅᴇʀᴀᴛɪᴏɴꜱ"
 
 __help__ = """
 Ah, group management. Everything is fun, until the spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
