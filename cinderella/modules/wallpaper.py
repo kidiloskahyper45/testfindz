@@ -49,7 +49,7 @@ __help__ = """
  - /wall <query> to get wallpaper
 """
 
-__mod_name__ = "ᴡᴀʟʟᴘᴀᴘᴇʀ"
+__mod_name__ = "Wᴀʟʟᴘᴀᴘᴇʀ"
 
 WALLPAPER_HANDLER = DisableAbleCommandHandler("wall", wall, pass_args=True)
 
