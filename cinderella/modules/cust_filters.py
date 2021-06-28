@@ -308,7 +308,7 @@ doin?
  - /stopall: stop all filters
 """
 
-__mod_name__ = "ꜰɪʟᴛᴇʀ"
+__mod_name__ = "Fɪʟᴛᴇʀ"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
