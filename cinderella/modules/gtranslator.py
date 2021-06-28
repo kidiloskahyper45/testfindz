@@ -116,6 +116,6 @@ TRANSLATE_HANDLER = DisableAbleCommandHandler("tr", totranslate)
 
 dispatcher.add_handler(TRANSLATE_HANDLER)
 
-__mod_name__ = "ᴛʀᴀɴꜱʟᴀᴛᴏʀ"
+__mod_name__ = "Gʀᴀɴꜱʟᴀᴛᴏʀ"
 __command_list__ = ["tr"]
 __handlers__ = [TRANSLATE_HANDLER]
