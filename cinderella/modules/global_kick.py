@@ -187,7 +187,7 @@ __help__ = """
 - /gkickreser: Reset global kick status of a person
 """
 
-__mod_name__ = "ɢʟᴏʙᴀʟ ᴋɪᴄᴋ"
+__mod_name__ = "Gʟᴏʙᴀʟ ᴋɪᴄᴋ"
 			
 GKICK_HANDLER = CommandHandler("gkick", gkick, pass_args=True,
                               filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
