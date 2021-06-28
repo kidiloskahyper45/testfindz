@@ -369,7 +369,7 @@ you and your groups by removing spam flooders as quickly as possible. They can b
 
 """
 
-__mod_name__ = "ɢʟᴏʙᴀʟ ᴍᴜᴛᴇ"
+__mod_name__ = "Gʟᴏʙᴀʟ ᴍᴜᴛᴇ"
 
 GMUTE_HANDLER = CommandHandler("gmute", gmute, pass_args=True,
                               filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
