@@ -434,7 +434,7 @@ __help__ ="""
 - /runmute
 """
 
-__mod_name__ = "ʀᴇᴍᴏᴛᴇ ᴄᴏᴍᴍᴀɴᴅꜱ"
+__mod_name__ = "Rᴇᴍᴏᴛᴇ ᴄᴏᴍᴍᴀɴᴅꜱ"
 
 RBAN_HANDLER = CommandHandler("rban", rban, pass_args=True, filters=CustomFilters.sudo_filter)
 RUNBAN_HANDLER = CommandHandler("runban", runban, pass_args=True, filters=CustomFilters.sudo_filter)
