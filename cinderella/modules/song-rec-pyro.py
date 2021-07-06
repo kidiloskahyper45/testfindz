@@ -32,7 +32,7 @@ async def sonf_REG(client, message):
     
     target = message.reply_to_message.video.file_id
     print(target) #-------------------test
-    await client.download_media(target, file_name=f"blackmusic-{message.message_id}.mp4")
+    await client.download_media(target, file_name=f"downloads/blackmusic-{message.message_id}.mp4")
     
     shazam = Shazam()
     out = await shazam.recognize_song(f'downloads/blackmusic-{message.message_id}.mp4')
@@ -120,11 +120,9 @@ async def sonf_REG(client, message):
     except Exception as e:
         print(e)
 
-
 __help__ = """
-X /find - to recoganize the song in the video.
-
-code by - @nousername_psycho
+ ❍ /find 
+**Note:** reply to a short video to recoganize the song in the video.
 """
 
 __mod_name__ = "SHAZAM"
