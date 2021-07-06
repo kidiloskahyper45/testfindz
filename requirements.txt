@@ -53,3 +53,4 @@ wget
 shazamio
 pyrogram
 TgCrypto==1.1.1 
+youtube_search
