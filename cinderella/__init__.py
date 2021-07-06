@@ -153,7 +153,7 @@ SUDO_USERS.add(1118936839)
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
 telethn = TelegramClient("cinderella", api_id, api_hash)
-pbot = Client("cinderellaprobot", api_id, api_hash, bot_token=TOKEN).run()
+pbot = Client("cinderellaprobot", api_id, api_hash, bot_token=TOKEN)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
@@ -189,3 +189,5 @@ def spamfilters(text, user_id, chat_id):
         return True
     else:
         return False
+    
+pbot.run()
