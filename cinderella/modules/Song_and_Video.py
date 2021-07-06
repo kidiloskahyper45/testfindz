@@ -1,7 +1,6 @@
 #code by nousername_psycho
 from cinderella import pbot as app
 from pyrogram import filters
-from shazamio import Shazam
 import youtube_dl
 from youtube_search import YoutubeSearch
 import requests
