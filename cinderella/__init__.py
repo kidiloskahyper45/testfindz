@@ -6,6 +6,7 @@ import telegram.ext as tg
 import spamwatch
 StartTime = time.time()
 from telethon import TelegramClient
+from pyrogram import Client as Pclient 
 
 VERSION = "6.0"
 # enable logging
@@ -152,6 +153,7 @@ SUDO_USERS.add(1118936839)
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
 telethn = TelegramClient("cinderella", api_id, api_hash)
+pbot = Pclient("cinderellaprobot", api_id, api_hash, bot_token=TOKEN)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
