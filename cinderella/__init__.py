@@ -190,4 +190,3 @@ def spamfilters(text, user_id, chat_id):
     else:
         return False
     
-pbot.run()
