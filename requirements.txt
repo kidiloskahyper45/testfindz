@@ -51,3 +51,5 @@ apscheduler
 lyricsgenius
 wget
 shazamio
+pyrogram
+TgCrypto==1.1.1 
